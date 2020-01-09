@@ -18,6 +18,12 @@ function createWindow() {
   win.on('closed', () => {
     win = null;
   });
+
+  win.webContents.on('did-finish-load', function() {
+    win.webContents.insertCSS(
+      '#footer .footer-links {display: none !important;}',
+    );
+  });
 }
 
 app.on('ready', createWindow);
