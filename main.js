@@ -10,7 +10,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: false,
     },
-    icon: path.join(__dirname, 'assets/icon.png'),
+    icon: path.join(__dirname, 'assets/playstore.png'),
   });
 
   win.loadURL('https://app.clubhouse.io');
