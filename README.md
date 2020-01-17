@@ -21,6 +21,6 @@ But since clubhouse is such a big part of my day to day work, Having it as a sep
 
 There are some features I would like to add to this app.
 
-- App icons for mac and linux (right now it's using their twitter avatar for windows).
-- Org switcher á la Slack, to conveniently keep multiple sessions going for different orgs, and allow for easy switching between them.
-- Migrate to typescript for the sake of sanity.
+- [x] App icons for mac.
+- [ ] Org switcher á la Slack, to conveniently keep multiple sessions going for different orgs, and allow for easy switching between them.
+- [ ] Migrate to typescript for the sake of sanity.
